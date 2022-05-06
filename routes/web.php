@@ -20,3 +20,4 @@ Route::get('/callforpapers',  [Controller::class, 'callforpapers'])->name('callf
 Route::get('/registration',  [Controller::class, 'registration'])->name('registration');
 Route::get('/submission',  [Controller::class, 'submission'])->name('submission');
 Route::get('/contactus',  [Controller::class, 'contactus'])->name('contactus');
+Route::get('/committee',  [Controller::class, 'committee'])->name('committee');

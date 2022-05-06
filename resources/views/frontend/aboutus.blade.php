@@ -2,15 +2,35 @@
 
 @section('content')
 
+@section('css')
+<style>
+    
+    #aboutus,#aboutdept {
+        animation-duration: 4s;
+        animation-name: fadein;
+    }
+    @keyframes fadein {
+        from {
+            opacity :0.1;
+        }
+
+        to {
+          opacity: 1;
+        }
+    }
+</style>
+@endsection
+
 <div>
-    <div class="container p-3">
+    
+    <div class="container p-3 mt-5" id="aboutpage">
 
         <h1 class="text-center pt-5">ABOUT US</h1>
 
         <div class="ps-2 pt-3">
             <h2>About the Institution</h2>
             <p class="text-secondary text- fw-normal lh-lg pt-3" style="text-align: justify;
-  text-justify: inter-word;">Saveetha Engineering College (SEC) was established in 2001, by the Founder Chairman Dr. N. M. Veeraiyan, a committed and dedicated Medical Professional. SEC
+  text-justify: inter-word;" id="aboutus">Saveetha Engineering College (SEC) was established in 2001, by the Founder Chairman Dr. N. M. Veeraiyan, a committed and dedicated Medical Professional. SEC
                 has a total strength of 4349 students in 13 UG courses, 8 PG Courses including MBA, Doctoral programs (PhD) in five Departments. National Board of Accreditation NBA
                 has Accredited 5 UG courses. Ranked 96 by NIRF- National Institute Ranking Framework for the academic year 2017-18 among all IITs, Central, State and Private
                 Institutions in India. Awarded 'A' GRADE with a high score of 3.19 on a scale of 4 by the National Assessment and Accreditation Council (NAAC) for 5 Years. SEC awarded
@@ -22,7 +42,7 @@
         <div class="ps-2 pt-3">
             <h2>About the Department</h2>
             <p class="text-secondary fw-normal lh-lg pt-3" style="text-align: justify;
-  text-justify: inter-word;">The Department of Computer Science and Engineering was established in the year 2001 with an intake of 60 students. It was increased to 120 students in the year
+  text-justify: inter-word;" id="aboutdept">The Department of Computer Science and Engineering was established in the year 2001 with an intake of 60 students. It was increased to 120 students in the year
                 2005-2006. In 2017-18 it is increased to 180. The Department offers B.E Computer Science and Engineering, M.E Computer Science and Engineering programs. The
                 department has a team of sincere, dedicated, competent and experienced faculty with commitment to serve the college in achieving its goals. All have completed their
                 master's degrees, and one third of them are Doctorates and most of them are pursuing their Ph.D. The department has conducted many workshops, seminars, FDPs, value

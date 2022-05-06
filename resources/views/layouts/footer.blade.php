@@ -22,11 +22,13 @@
     <div class="col">
         <h1 class="fs-3 text-white ">Quick Links:</h1>
         <ul>
-           <li style="list-style: none;"> <a href="" class="text-white fs-6" style="text-decoration: none;">HOME</a> </li>
-           <li style="list-style: none;"> <a href="" class="text-white fs-6" style="text-decoration: none;">ABOUT</a> </li>
-           <li style="list-style: none;"> <a href="" class="text-white fs-6" style="text-decoration: none;">REGISTRATION</a> </li>
-           <li style="list-style: none;"> <a href="" class="text-white fs-6" style="text-decoration: none;">PAPER SUBMISSION</a> </li>
-           <li style="list-style: none;"> <a href="" class="text-white fs-6" style="text-decoration: none;">CONTACT US</a> </li>
+           <li style="list-style: none;"> <a href="{{route('home')}}" class="text-white fs-6" style="text-decoration: none;">HOME</a> </li>
+           <li style="list-style: none;"> <a href="{{route('aboutus')}}" class="text-white fs-6" style="text-decoration: none;">ABOUT US</a> </li>
+           <li style="list-style: none;"> <a href="{{route('callforpapers')}}" class="text-white fs-6" style="text-decoration: none;">CALL FOR PAPERS</a> </li>
+           <li style="list-style: none;"> <a href="{{route('registration')}}" class="text-white fs-6" style="text-decoration: none;">REGISTRATION</a> </li>
+           <li style="list-style: none;"> <a href="{{route('submission')}}" class="text-white fs-6" style="text-decoration: none;">PAPER SUBMISSION</a> </li>
+           <li style="list-style: none;"> <a href="{{route('contactus')}}" class="text-white fs-6" style="text-decoration: none;">CONTACT US</a> </li>
+           <li style="list-style: none;"> <a href="{{route('committee')}}" class="text-white fs-6" style="text-decoration: none;">COMMITTEE</a> </li>
         </ul>
     </div>
 

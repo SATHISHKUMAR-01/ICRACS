@@ -34,4 +34,8 @@ class Controller extends BaseController
     public function callforpapers(){
         return view('frontend.callforpapers');
     }
+
+    public function committee(){
+        return view('frontend.committee');
+    }
 }

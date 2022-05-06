@@ -3,7 +3,7 @@
 @section('content')
 
 <div>
-    <div class="container p-3">
+    <div class="container p-3 mt-5">
 
         <h1 class="text-center pt-5">CONTACT US</h1>
 
@@ -13,7 +13,7 @@
              Professor, CSE <br>
              Saveetha Engineering College, Chennai, India <br>
              Contact Number: 9884416131 <br>
-             Email Id: icracs22@gmail.com
+             Email Id: <a href="icracs22@gmail.com">icracs22@gmail.com</a> 
         </div>
 
 
